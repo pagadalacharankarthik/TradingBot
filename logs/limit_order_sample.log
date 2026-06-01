@@ -1,0 +1,6 @@
+2025-01-15 10:31:05 | DEBUG    | trading_bot | Logging initialised. Log file: logs/trading_bot_20250115.log
+2025-01-15 10:31:05 | INFO     | trading_bot.client | BinanceClient ready. URL: https://testnet.binancefuture.com
+2025-01-15 10:31:05 | INFO     | trading_bot.orders | Placing SELL LIMIT | symbol=BTCUSDT qty=0.001 price=100000.0
+2025-01-15 10:31:05 | DEBUG    | trading_bot.client | POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 100000.0, 'timeInForce': 'GTC'}
+2025-01-15 10:31:06 | DEBUG    | trading_bot.client | HTTP POST https://testnet.binancefuture.com/fapi/v1/order → 200 | {"orderId":3255299,"symbol":"BTCUSDT","status":"NEW","price":"100000","origQty":"0.001","executedQty":"0","type":"LIMIT","side":"SELL","timeInForce":"GTC"}
+2025-01-15 10:31:06 | INFO     | trading_bot.orders | Order placed ✓ | orderId=3255299 status=NEW executedQty=0 avgPrice=0
